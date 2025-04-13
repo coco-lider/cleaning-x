@@ -11,6 +11,7 @@
   font-weight: bold;
   color: #3f3d56;
 }
+
 .nav ul {
   list-style: none;
   display: flex;
@@ -18,6 +19,28 @@
   padding: 0;
   margin: 0;
 }
+
+a{
+  position: relative;
+
+}
+
+a:before{
+  content: "";
+  height: 5px;
+  background-color: #211F54;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  transform: scale(0);
+  left: 0;
+  transition: all 0.5s;
+}
+
+a:hover::before{
+  transform: scale(1);
+}
+
 .nav a {
   text-decoration: none;
   color: #211F54;
