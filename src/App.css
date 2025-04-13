@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    font-family: "Roboto", sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@media (max-width: 1024px) {
+    .hero {
+      flex-direction: column;
+      text-align: center;
+      padding: 40px 20px;
+    }
+  
+    .hero-content {
+      max-width: 100%;
+    }
+  
+    .hero h1 {
+      font-size: 48px;
+    }
+  
+    .hero p {
+      font-size: 18px;
+    }
+  
+    .hero-buttons {
+      flex-direction: column;
+    }
+  
+    .about-steps {
+      flex-direction: column;
+      gap: 30px;
+    }
+  
+    .serves-title {
+      flex-direction: column;
+      text-align: center;
+      gap: 20px;
+    }
+  
+    .service-cards {
+      grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+      gap: 30px;
+    }
+  
+    .card {
+      height: auto;
+    }
+  
+    .header {
+      flex-direction: column;
+      gap: 20px;
+      padding: 20px;
+    }
+  
+    .nav ul {
+      flex-direction: column;
+      gap: 10px;
+    }
+  
+    .header-right {
+      flex-direction: column;
+      gap: 10px;
+    }
+  }
+  
+  @media (max-width: 600px) {
+    .hero h1 {
+      font-size: 36px;
+    }
+  
+    .hero p,
+    .about p,
+    .card p {
+      font-size: 16px;
+    }
+  
+    .hero-buttons,
+    .about-buttons {
+      flex-direction: column;
+      gap: 10px;
+    }
+  
+    .about h2,
+    .serves-title h2 {
+      font-size: 32px;
+    }
+  
+    .card h3 {
+      font-size: 20px;
+    }
+  
+    .about-steps h3 {
+      font-size: 22px;
+    }
+  
+    .service-cards {
+      grid-template-columns: 1fr;
+    }
+  
+    .about,
+    .services {
+      padding: 40px 20px;
+    }
+  
+    .quote-btn {
+      width: 100%;
+      text-align: center;
+    }
+  
+    .explore-btn {
+      width: 100%;
+      text-align: center;
+    }
+  }
+  

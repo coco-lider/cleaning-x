@@ -1,0 +1,51 @@
+.services {
+    padding: 60px 40px;
+    background-color: #FFFFFF;
+    text-align: center;
+}
+
+.serves-title{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.serves-title h2{
+    font-size: 48px;
+    font-weight: 700;
+    color: #211F54;
+}
+
+.service-cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(340px, 1fr));
+    gap: 50px;
+    justify-content: space-around;
+    margin-top: 30px;
+}
+
+.card {
+    background: white;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    height: 400px;
+    transition: all 0.3s;
+}
+
+.card:hover{
+    transform: translateY(-5px);
+}
+
+.card h3{
+    font-size: 24px;
+    font-weight: 700;
+    color: #211F54;
+}
+
+.card p{
+    font-size: 21px;
+    font-weight: 400;
+    color: #6E7191;
+}

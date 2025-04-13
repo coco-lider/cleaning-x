@@ -1,0 +1,54 @@
+.hero {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 60px 0 60px 40px;
+    background: #f8f9fc;
+}
+
+.hero-content {
+    max-width: 500px;
+}
+
+.hero h1 {
+    font-size: 68px;
+    font-weight: 700;
+    color: #211F54;
+}
+
+.hero p {
+    color: #6E7191;
+    margin: 20px 0;
+    font-size: 21px;
+    font-weight: 400;
+}
+
+.hero-buttons {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.call{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.call span{
+    color: #6E7191;
+    font-size: 16px;
+    font-weight: 400;
+}
+.number p{
+    margin: 0;
+    color: #211F54;
+    font-size: 18px;
+    font-weight: 700;
+    margin-bottom: 25px;
+}
+
+.hero-img img{
+    max-width: 720px;
+    width: 100%;
+}

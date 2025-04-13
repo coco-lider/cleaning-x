@@ -1,0 +1,50 @@
+.about {
+    padding: 60px 40px;
+    background-color: #ffffff;
+    text-align: center;
+}
+
+.about h2{
+    color: #211F54;
+    font-weight: 700;
+    font-size: 48px;
+}
+
+.about p{
+    color: #6E7191;
+    font-size: 21px;
+    font-weight: 400;
+}
+
+.about-steps {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 40px;
+}
+
+.about-steps h3{
+    color: #211F54;
+    font-size: 28px;
+    font-weight: 700;
+}
+
+.about-buttons {
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.explore-btn {
+    background-color: #FFFFFF;
+    color: #211F54;
+    border: 1px solid #EFF0F6;
+    padding: 10px 20px;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+.explore-btn:hover{
+    background-color: #ececec;
+}
